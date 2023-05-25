@@ -11,20 +11,26 @@
 
 #include "BIT_MATH.h"
 #include "ATmega32_Rrgiosters.h"
+#include "std_types.h"
+#define F_CPU (16000000UL)
+#include <util/delay.h>
+
+
 
 #define seven_segment_Data_Dir DDRB
 #define seven_segment_Data_port PORTB
 //columns in 7-segment
-#define COM1 PIN3
-#define COM2 PIN2
-#define COM3 PIN5
-#define COM4 PIN6
+#define COM1 PIN6
+#define COM2 PIN5
+#define COM3 PIN2
+#define COM4 PIN3
 
 
 
 void seven_segment_Init(void);
+void seven_segment_Enable(void);
 void seven_segment_Display(unsigned char number); 
-
+void seven_segment_number(int number);
 
 
 

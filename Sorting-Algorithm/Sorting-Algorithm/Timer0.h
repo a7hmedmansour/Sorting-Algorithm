@@ -13,11 +13,13 @@
 #include <avr/interrupt.h>
 #define I_BIT (7)
 #define NULL_PTR ((void*)0) 
-#define  Number_of_Tovf 31
+#define  Number_of_Tovf 61 //count 1 sec 
+#define  Number_to_dely 31 //count 0.5 sec 
 
 
 void Timer0_init();
-void Timer0_setcallback(void(*ptr)(void));
+void Timer0_setcallback(void(*ptr)(uint8),uint8 value);
+void Timer0_setdata(uint8 *data);
 
 
 

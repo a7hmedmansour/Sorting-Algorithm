@@ -1,11 +1,31 @@
 Archive member included to satisfy reference by file (symbol)
 
+d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+                              seven_segment.o (__divmodhi4)
 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
                               D:/3th year/Embedded Systems/Lab/Micro/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o (exit)
 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
                               keypad.o (__do_copy_data)
 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
                               Timer0.o (__do_clear_bss)
+d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+                              d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o) (__udivmodhi4)
+d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(sprintf.o)
+                              main.o (sprintf)
+d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                              d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(sprintf.o) (vfprintf)
+d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                              d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen_P)
+d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                              d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen)
+d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+                              d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (fputc)
+d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                              d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (__ultoa_invert)
+d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+                              d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(sprintf.o) (__prologue_saves__)
+d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+                              d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(sprintf.o) (__epilogue_restores__)
 
 Discarded input sections
 
@@ -14,73 +34,36 @@ Discarded input sections
  .text          0x00000000        0x0 keypad.o
  .data          0x00000000        0x0 keypad.o
  .bss           0x00000000        0x0 keypad.o
- .text.keypad_init
-                0x00000000       0x4a keypad.o
- .text.keypad_get_value
-                0x00000000       0xd2 keypad.o
- .rodata.arr    0x00000000       0x10 keypad.o
- .debug_info    0x00000000      0x17c keypad.o
- .debug_abbrev  0x00000000      0x10a keypad.o
- .debug_loc     0x00000000       0xe8 keypad.o
- .debug_aranges
-                0x00000000       0x28 keypad.o
- .debug_ranges  0x00000000       0x18 keypad.o
- .debug_line    0x00000000      0x1f3 keypad.o
- .debug_str     0x00000000      0x1f2 keypad.o
- .comment       0x00000000       0x31 keypad.o
- .debug_frame   0x00000000       0x34 keypad.o
  .text          0x00000000        0x0 LCD.o
  .data          0x00000000        0x0 LCD.o
  .bss           0x00000000        0x0 LCD.o
- .text.LCD_Command
-                0x00000000       0x86 LCD.o
- .text.LCD_Init
-                0x00000000       0x3e LCD.o
- .text.LCD_Char
-                0x00000000       0x86 LCD.o
- .text.LCD_String
-                0x00000000       0x2c LCD.o
  .text.LCD_goto_Row_Col
                 0x00000000       0x26 LCD.o
- .text.LCD_Clear
-                0x00000000        0x8 LCD.o
- .debug_info    0x00000000      0x4c1 LCD.o
- .debug_abbrev  0x00000000      0x18e LCD.o
- .debug_loc     0x00000000      0x527 LCD.o
- .debug_aranges
-                0x00000000       0x48 LCD.o
- .debug_ranges  0x00000000       0x38 LCD.o
- .debug_line    0x00000000      0x2c9 LCD.o
- .debug_str     0x00000000      0x238 LCD.o
- .comment       0x00000000       0x31 LCD.o
- .debug_frame   0x00000000       0x88 LCD.o
  .text          0x00000000        0x0 main.o
  .data          0x00000000        0x0 main.o
  .bss           0x00000000        0x0 main.o
  .text          0x00000000        0x0 seven_segment.o
  .data          0x00000000        0x0 seven_segment.o
  .bss           0x00000000        0x0 seven_segment.o
- .text.init_seven_segment
-                0x00000000       0x20 seven_segment.o
- .text.seven_segment_Display
-                0x00000000       0x1e seven_segment.o
- .debug_info    0x00000000       0x71 seven_segment.o
- .debug_abbrev  0x00000000       0x62 seven_segment.o
- .debug_loc     0x00000000       0x21 seven_segment.o
- .debug_aranges
-                0x00000000       0x28 seven_segment.o
- .debug_ranges  0x00000000       0x18 seven_segment.o
- .debug_line    0x00000000       0x7c seven_segment.o
- .debug_str     0x00000000      0x15f seven_segment.o
- .comment       0x00000000       0x31 seven_segment.o
- .debug_frame   0x00000000       0x34 seven_segment.o
  .text          0x00000000        0x0 Timer0.o
  .data          0x00000000        0x0 Timer0.o
  .bss           0x00000000        0x0 Timer0.o
- .text.Timer0_init
-                0x00000000       0x14 Timer0.o
  .text.Timer0_setcallback
-                0x00000000        0xa Timer0.o
+                0x00000000        0xe Timer0.o
+ .text          0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .data          0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .bss           0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc   0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
  .text          0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
  .data          0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
  .bss           0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
@@ -129,6 +112,66 @@ Discarded input sections
                 0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.fixed
                 0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc   0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(sprintf.o)
+ .data          0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(sprintf.o)
+ .bss           0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(sprintf.o)
+ .text          0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .data          0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .bss           0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .text          0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .data          0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .bss           0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .text          0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .data          0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .bss           0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .text          0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .data          0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .bss           0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .text          0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .data          0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .bss           0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .text          0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .data          0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .bss           0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc   0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+ .text          0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .data          0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .bss           0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.mul
+                0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc   0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
 
 Memory Configuration
 
@@ -259,7 +302,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000       0xea
+.text           0x00000000      0xd1e
  *(.vectors)
  .vectors       0x00000000       0x54 D:/3th year/Embedded Systems/Lab/Micro/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
                 0x00000000                __vector_default
@@ -340,16 +383,83 @@ END GROUP
                 0x0000008e                __vector_20
                 0x00000092                . = ALIGN (0x2)
  *(.text.*)
- .text.main     0x00000092        0x2 main.o
-                0x00000092                main
+ .text.keypad_Init
+                0x00000092       0x4a keypad.o
+                0x00000092                keypad_Init
+ .text.keypad_get_value
+                0x000000dc       0xd2 keypad.o
+                0x000000dc                keypad_get_value
+ .text.LCD_Command
+                0x000001ae       0x86 LCD.o
+                0x000001ae                LCD_Command
+ .text.LCD_Init
+                0x00000234       0x3e LCD.o
+                0x00000234                LCD_Init
+ .text.LCD_Char
+                0x00000272       0x86 LCD.o
+                0x00000272                LCD_Char
+ .text.LCD_String
+                0x000002f8       0x2c LCD.o
+                0x000002f8                LCD_String
+ .text.LCD_Clear
+                0x00000324        0x8 LCD.o
+                0x00000324                LCD_Clear
+ .text.bubbleSort
+                0x0000032c       0x6e main.o
+                0x0000032c                bubbleSort
+ .text.main     0x0000039a      0x1b4 main.o
+                0x0000039a                main
+ .text.seven_segment_Init
+                0x0000054e       0x20 seven_segment.o
+                0x0000054e                seven_segment_Init
+ .text.seven_segment_Display
+                0x0000056e       0x1e seven_segment.o
+                0x0000056e                seven_segment_Display
+ .text.seven_segment_number
+                0x0000058c      0x100 seven_segment.o
+                0x0000058c                seven_segment_number
+ .text.Timer0_init
+                0x0000068c       0x14 Timer0.o
+                0x0000068c                Timer0_init
  .text.__vector_11
-                0x00000094       0x52 Timer0.o
-                0x00000094                __vector_11
-                0x000000e6                . = ALIGN (0x2)
+                0x000006a0       0x56 Timer0.o
+                0x000006a0                __vector_11
+ .text.libgcc.div
+                0x000006f6       0x28 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+                0x000006f6                _div
+                0x000006f6                __divmodhi4
+ .text.libgcc.div
+                0x0000071e       0x28 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+                0x0000071e                __udivmodhi4
+ .text.avr-libc
+                0x00000746       0x44 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(sprintf.o)
+                0x00000746                sprintf
+ .text.avr-libc
+                0x0000078a      0x3c2 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                0x0000078a                vfprintf
+ .text.avr-libc
+                0x00000b4c       0x16 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                0x00000b4c                strnlen_P
+ .text.avr-libc
+                0x00000b62       0x16 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                0x00000b62                strnlen
+ .text.avr-libc
+                0x00000b78       0x78 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
+                0x00000b78                fputc
+ .text.avr-libc
+                0x00000bf0       0xbc d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                0x00000bf0                __ultoa_invert
+ .text.libgcc.prologue
+                0x00000cac       0x38 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+                0x00000cac                __prologue_saves__
+ .text.libgcc.prologue
+                0x00000ce4       0x36 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+                0x00000ce4                __epilogue_restores__
+                0x00000d1a                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x000000e6        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
-                0x000000e6                _exit
-                0x000000e6                exit
+ .fini9         0x00000d1a        0x0 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x00000d1a                _exit
+                0x00000d1a                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -368,39 +478,47 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x000000e6        0x4 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .fini0         0x00000d1a        0x4 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x000000ea                _etext = .
+                0x00000d1e                _etext = .
 
-.data           0x00800060        0x0 load address 0x000000ea
+.data           0x00800060       0x14 load address 0x00000d1e
                 0x00800060                PROVIDE (__data_start, .)
  *(.data)
  *(.data*)
  *(.gnu.linkonce.d*)
  *(.rodata)
  *(.rodata*)
+ .rodata.arr    0x00800060       0x10 keypad.o
+                0x00800060                arr
+ .rodata.str1.1
+                0x00800070        0x3 main.o
  *(.gnu.linkonce.r*)
-                0x00800060                . = ALIGN (0x2)
-                0x00800060                _edata = .
-                0x00800060                PROVIDE (__data_end, .)
+                0x00800074                . = ALIGN (0x2)
+ *fill*         0x00800073        0x1 
+                0x00800074                _edata = .
+                0x00800074                PROVIDE (__data_end, .)
 
-.bss            0x00800060        0x2
-                0x00800060                PROVIDE (__bss_start, .)
+.bss            0x00800074        0x3
+                0x00800074                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
+ .bss.g_callbackValue
+                0x00800074        0x1 Timer0.o
+                0x00800074                g_callbackValue
  .bss.g_callbackPTR
-                0x00800060        0x2 Timer0.o
-                0x00800060                g_callbackPTR
+                0x00800075        0x2 Timer0.o
+                0x00800075                g_callbackPTR
  *(COMMON)
-                0x00800062                PROVIDE (__bss_end, .)
-                0x000000ea                __data_load_start = LOADADDR (.data)
-                0x000000ea                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00800077                PROVIDE (__bss_end, .)
+                0x00000d1e                __data_load_start = LOADADDR (.data)
+                0x00000d32                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x00800062        0x0
+.noinit         0x00800077        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                PROVIDE (__noinit_end, .)
-                0x00800062                _end = .
+                0x00800077                _end = .
                 [!provide]                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
@@ -440,11 +558,18 @@ END GROUP
 .stab.indexstr
  *(.stab.indexstr)
 
-.comment        0x00000000       0x30
+.comment        0x00000000       0x5c
  *(.comment)
- .comment       0x00000000       0x30 main.o
+ .comment       0x00000000       0x30 keypad.o
                                  0x31 (size before relaxing)
+ .comment       0x00000030       0x31 LCD.o
+ .comment       0x00000030       0x31 main.o
+ .comment       0x00000030       0x31 seven_segment.o
  .comment       0x00000030       0x31 Timer0.o
+ .comment       0x00000030       0x31 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(sprintf.o)
+ .comment       0x00000030       0x2c d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                                 0x2d (size before relaxing)
+ .comment       0x0000005c       0x31 d:/3th year/embedded systems/lab/micro/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(fputc.o)
 
 .note.gnu.avr.deviceinfo
                 0x00000000       0x3c
@@ -466,50 +591,78 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000       0x50
+.debug_aranges  0x00000000       0xf8
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x20 main.o
+                0x00000000       0x28 keypad.o
  .debug_aranges
-                0x00000020       0x30 Timer0.o
+                0x00000028       0x48 LCD.o
+ .debug_aranges
+                0x00000070       0x28 main.o
+ .debug_aranges
+                0x00000098       0x30 seven_segment.o
+ .debug_aranges
+                0x000000c8       0x30 Timer0.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000      0x67a
+.debug_info     0x00000000     0x133c
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x4e6 D:/3th year/Embedded Systems/Lab/Micro/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
- .debug_info    0x000004e6       0x99 main.o
- .debug_info    0x0000057f       0xfb Timer0.o
+ .debug_info    0x000004e6      0x17c keypad.o
+ .debug_info    0x00000662      0x4c1 LCD.o
+ .debug_info    0x00000b23      0x438 main.o
+ .debug_info    0x00000f5b      0x2b2 seven_segment.o
+ .debug_info    0x0000120d      0x12f Timer0.o
 
-.debug_abbrev   0x00000000      0x59d
+.debug_abbrev   0x00000000      0xac4
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x4a3 D:/3th year/Embedded Systems/Lab/Micro/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
- .debug_abbrev  0x000004a3       0x49 main.o
- .debug_abbrev  0x000004ec       0xb1 Timer0.o
+ .debug_abbrev  0x000004a3      0x10a keypad.o
+ .debug_abbrev  0x000005ad      0x18e LCD.o
+ .debug_abbrev  0x0000073b      0x197 main.o
+ .debug_abbrev  0x000008d2      0x129 seven_segment.o
+ .debug_abbrev  0x000009fb       0xc9 Timer0.o
 
-.debug_line     0x00000000      0x23f
+.debug_line     0x00000000      0xbd3
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x116 D:/3th year/Embedded Systems/Lab/Micro/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
- .debug_line    0x00000116       0x39 main.o
- .debug_line    0x0000014f       0xf0 Timer0.o
+ .debug_line    0x00000116      0x1f3 keypad.o
+ .debug_line    0x00000309      0x2c9 LCD.o
+ .debug_line    0x000005d2      0x2ee main.o
+ .debug_line    0x000008c0      0x20e seven_segment.o
+ .debug_line    0x00000ace      0x105 Timer0.o
 
-.debug_frame    0x00000000       0xb0
+.debug_frame    0x00000000      0x1f4
  *(.debug_frame)
- .debug_frame   0x00000000       0x24 main.o
- .debug_frame   0x00000024       0x8c Timer0.o
+ .debug_frame   0x00000000       0x34 keypad.o
+ .debug_frame   0x00000034       0x88 LCD.o
+ .debug_frame   0x000000bc       0x58 main.o
+ .debug_frame   0x00000114       0x54 seven_segment.o
+ .debug_frame   0x00000168       0x8c Timer0.o
 
-.debug_str      0x00000000      0x35f
+.debug_str      0x00000000      0x50c
  *(.debug_str)
  .debug_str     0x00000000      0x196 D:/3th year/Embedded Systems/Lab/Micro/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
- .debug_str     0x00000196      0x17a main.o
-                                0x1ae (size before relaxing)
- .debug_str     0x00000310       0x4f Timer0.o
-                                0x1ec (size before relaxing)
+ .debug_str     0x00000196      0x1be keypad.o
+                                0x1f2 (size before relaxing)
+ .debug_str     0x00000354       0x75 LCD.o
+                                0x238 (size before relaxing)
+ .debug_str     0x000003c9       0xa9 main.o
+                                0x2c5 (size before relaxing)
+ .debug_str     0x00000472       0x47 seven_segment.o
+                                0x257 (size before relaxing)
+ .debug_str     0x000004b9       0x53 Timer0.o
+                                0x208 (size before relaxing)
 
-.debug_loc      0x00000000       0xcb
+.debug_loc      0x00000000      0xbf2
  *(.debug_loc)
- .debug_loc     0x00000000       0xcb Timer0.o
+ .debug_loc     0x00000000       0xe8 keypad.o
+ .debug_loc     0x000000e8      0x527 LCD.o
+ .debug_loc     0x0000060f      0x31d main.o
+ .debug_loc     0x0000092c      0x1fb seven_segment.o
+ .debug_loc     0x00000b27       0xcb Timer0.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -529,10 +682,13 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x00000000       0x30
+.debug_ranges   0x00000000       0xa8
  *(.debug_ranges)
- .debug_ranges  0x00000000       0x10 main.o
- .debug_ranges  0x00000010       0x20 Timer0.o
+ .debug_ranges  0x00000000       0x18 keypad.o
+ .debug_ranges  0x00000018       0x38 LCD.o
+ .debug_ranges  0x00000050       0x18 main.o
+ .debug_ranges  0x00000068       0x20 seven_segment.o
+ .debug_ranges  0x00000088       0x20 Timer0.o
 
 .debug_macro
  *(.debug_macro)
