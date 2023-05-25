@@ -126,6 +126,9 @@
     <Compile Include="BIT_MATH.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="Functions.c">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="keypad.c">
       <SubType>compile</SubType>
     </Compile>
@@ -145,6 +148,9 @@
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="seven_segment.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Functions.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="std_types.h">

@@ -13,8 +13,6 @@ void seven_segment_Init(void)
 	SET_BIT(DDRA,COM3); /*Enable third seven segment*/
 	SET_BIT(DDRA,COM4); /*Enable fourth seven segment*/
 	
-	
-	
 	seven_segment_Data_Dir|=0b00010111;     	/*set PB0 ,PB1,PB2,PB4*/
 }
 void seven_segment_Display(unsigned char number)
@@ -51,4 +49,5 @@ void seven_segment_number(int number) {
 	CLR_BIT(PORTA,COM4);
 	seven_segment_Display(digit4);
 	_delay_ms(1000);
+	SET_BIT(PORTA,COM4);
 }

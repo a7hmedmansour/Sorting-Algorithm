@@ -38,6 +38,7 @@ SUBDIRS :=  \
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS +=  \
+../Functions.c \
 ../keypad.c \
 ../LCD.c \
 ../main.c \
@@ -52,6 +53,7 @@ ASM_SRCS +=
 
 
 OBJS +=  \
+Functions.o \
 keypad.o \
 LCD.o \
 main.o \
@@ -59,6 +61,7 @@ seven_segment.o \
 Timer0.o
 
 OBJS_AS_ARGS +=  \
+Functions.o \
 keypad.o \
 LCD.o \
 main.o \
@@ -66,6 +69,7 @@ seven_segment.o \
 Timer0.o
 
 C_DEPS +=  \
+Functions.d \
 keypad.d \
 LCD.d \
 main.d \
@@ -73,6 +77,7 @@ seven_segment.d \
 Timer0.d
 
 C_DEPS_AS_ARGS +=  \
+Functions.d \
 keypad.d \
 LCD.d \
 main.d \
@@ -93,6 +98,13 @@ LINKER_SCRIPT_DEP+=
 
 
 # AVR32/GNU C Compiler
+./Functions.o: .././Functions.c
+	@echo Building file: $<
+	@echo Invoking: AVR/GNU C Compiler : 5.4.0
+	$(QUOTE)D:\3th year\Embedded Systems\Lab\Micro\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe$(QUOTE)  -x c -funsigned-char -funsigned-bitfields -DDEBUG  -I"D:\3th year\Embedded Systems\Lab\Micro\7.0\Packs\atmel\ATmega_DFP\1.7.374\include"  -Og -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega32 -B "D:\3th year\Embedded Systems\Lab\Micro\7.0\Packs\atmel\ATmega_DFP\1.7.374\gcc\dev\atmega32" -c -std=gnu99 -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -MT"$(@:%.o=%.o)"   -o "$@" "$<" 
+	@echo Finished building: $<
+	
+
 ./keypad.o: .././keypad.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler : 5.4.0
