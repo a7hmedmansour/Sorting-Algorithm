@@ -10,7 +10,16 @@ Functions.d Functions.o: .././Functions.c .././Functions.h \
  d:\3th\ year\embedded\ systems\lab\micro\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
  d:\3th\ year\embedded\ systems\lab\micro\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h \
  .././ATmega32_Rrgiosters.h .././BIT_MATH.h .././LCD.h \
- .././seven_segment.h
+ .././seven_segment.h .././Timer0.h \
+ d:\3th\ year\embedded\ systems\lab\micro\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h \
+ d:\3th\ year\embedded\ systems\lab\micro\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h \
+ d:\3th\ year\embedded\ systems\lab\micro\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\sfr_defs.h \
+ D:\3th\ year\Embedded\ Systems\Lab\Micro\7.0\Packs\atmel\ATmega_DFP\1.7.374\include/avr/iom32.h \
+ d:\3th\ year\embedded\ systems\lab\micro\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\portpins.h \
+ d:\3th\ year\embedded\ systems\lab\micro\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\common.h \
+ d:\3th\ year\embedded\ systems\lab\micro\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\version.h \
+ d:\3th\ year\embedded\ systems\lab\micro\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\fuse.h \
+ d:\3th\ year\embedded\ systems\lab\micro\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h
 
 .././Functions.h:
 
@@ -43,3 +52,23 @@ d:\3th\ year\embedded\ systems\lab\micro\7.0\toolchain\avr8\avr8-gnu-toolchain\a
 .././LCD.h:
 
 .././seven_segment.h:
+
+.././Timer0.h:
+
+d:\3th\ year\embedded\ systems\lab\micro\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h:
+
+d:\3th\ year\embedded\ systems\lab\micro\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h:
+
+d:\3th\ year\embedded\ systems\lab\micro\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\sfr_defs.h:
+
+D:\3th\ year\Embedded\ Systems\Lab\Micro\7.0\Packs\atmel\ATmega_DFP\1.7.374\include/avr/iom32.h:
+
+d:\3th\ year\embedded\ systems\lab\micro\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\portpins.h:
+
+d:\3th\ year\embedded\ systems\lab\micro\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\common.h:
+
+d:\3th\ year\embedded\ systems\lab\micro\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\version.h:
+
+d:\3th\ year\embedded\ systems\lab\micro\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\fuse.h:
+
+d:\3th\ year\embedded\ systems\lab\micro\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h:

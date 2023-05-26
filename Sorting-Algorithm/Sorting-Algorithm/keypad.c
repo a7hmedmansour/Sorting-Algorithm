@@ -33,6 +33,7 @@ unsigned char keypad_get_value(void)
 	unsigned char col, row, ans = INVALID_KEYPAD_PRESS;
 	for (row = 5 ; row>=2 ; row--)
 	{
+		_delay_ms(50);
 		PORTC |= 0b00111100; /*write High on all row*/
 		
 		CLR_BIT(PORTC,row); /*write low on one row*/

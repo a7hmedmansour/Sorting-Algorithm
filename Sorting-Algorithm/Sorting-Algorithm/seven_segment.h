@@ -30,7 +30,7 @@
 void seven_segment_Init(void);
 void seven_segment_Enable(void);
 void seven_segment_Display(unsigned char number); 
-void seven_segment_number(int number);
+
 
 
 
