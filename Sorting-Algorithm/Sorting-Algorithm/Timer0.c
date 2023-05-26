@@ -3,7 +3,6 @@
 void (*g_callbacktimer)(int* ,int*) = NULL_PTR;
 int *g_numberarray= NULL;
 int *g_arraysize=NULL;
-uint8 over_flow_times=0;
 void Timer0_init()
 {
 	TCNT0=0;

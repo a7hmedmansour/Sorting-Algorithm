@@ -15,8 +15,6 @@
 #define F_CPU (16000000UL)
 #include <util/delay.h>
 
-
-
 #define seven_segment_Data_Dir DDRB
 #define seven_segment_Data_port PORTB
 //columns in 7-segment
@@ -25,13 +23,7 @@
 #define COM3 PIN2
 #define COM4 PIN3
 
-
-
 void seven_segment_Init(void);
-void seven_segment_Enable(void);
 void seven_segment_Display(unsigned char number); 
-
-
-
 
 #endif /* SEVEN_SEGMENT_H_ */

@@ -16,8 +16,8 @@ if (value)
 {
 if (value >='0' && value <='9' && count_digit < 4) //check if input  number or not
 {
-	digit = value - '0';
-	Number[*num] = (Number[*num] * 10) + digit;
+	digit = value - '0';   
+	Number[*num] = (Number[*num] * 10) + digit; //50+2 52 //520
 	count_digit++;
 	LCD_Char(value);
 	check=TRUE;
@@ -61,7 +61,6 @@ int digit4 = number[i] % 10;
 int digit3 = (number[i] / 10) % 10;
 int digit2 = (number[i] / 100) % 10;
 int digit1 = (number[i] / 1000) % 10;
-	
 g_ticks++;
 if (g_ticks == Number_of_dely)
 {			
@@ -112,7 +111,7 @@ if (*num > 0)
 	for (i = 0; i <=(*num); i++)
 	{
 	LCD_Char(' ');
-	sprintf(str, "%d", Number[i]);
+	sprintf(str, "%d", Number[i]); 
 	LCD_String(str);
 	}
 }

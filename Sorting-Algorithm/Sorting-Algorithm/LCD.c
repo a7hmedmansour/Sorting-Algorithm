@@ -25,7 +25,7 @@ void LCD_Init(void) /* LCD initialization */
 }
 void LCD_Command(unsigned char cmd)
 {
-	PORTB &= 0b11101000;		/* Clear the 4 bits of the data bus */
+	PORTB &= 0b11101000;		/* Clear the 4 bits of the data bus */ //0000-0000
 	unsigned char High=((cmd&0xF0) >> 4);
 	PORTB |= ((( High& 0b00001000) << 1 ) | (High & 0b00000111));	/* Send the lowest 4 bits of cmd to the data bus */
 	CLR_BIT (LCD_Command_Port, RS);		/* RS = 0 command reg. */
@@ -70,26 +70,6 @@ void LCD_String(char *str)
 	{
 		LCD_Char(str[i]);
 	}
-}
-void LCD_goto_Row_Col(unsigned char row,unsigned char col)
-{
-	unsigned char Address=0;
-	switch(row)
-	{
-		case 0:
-		Address=col;
-		break;
-		case 1:
-		Address=col+0x40;
-		break;
-		case 2:
-		Address=col+0x14;
-		break;
-		case 3:
-		Address=col+0x54;
-		break;
-	}
-	LCD_Command(Address|SET_CURSOR_LOCATION);
 }
 void LCD_Clear(void)
 {

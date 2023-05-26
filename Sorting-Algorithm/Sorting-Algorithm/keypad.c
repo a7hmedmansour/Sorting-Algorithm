@@ -8,7 +8,6 @@
 
 const unsigned char arr[4][4]={{55, 56, 57,47 },{52, 53, 54, 42},{49, 50, 51,45},{69, 48, 61, 43}}; 
 							/*row 3 [7-8-9-/*/ /*row 2 [4-5-6-* *//*row 1 [1-2-3- '-' *//*row 0 [ON-0- = - +*/
-	
 void keypad_Init()
 {
 	/*set pins cols as input*/

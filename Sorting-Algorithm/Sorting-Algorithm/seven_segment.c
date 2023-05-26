@@ -1,9 +1,4 @@
-/*
- * seven_segment.c
- *
- * Created: 15-May-23 5:56:20 AM
- *  Author: BITS Team
- */ 
+
 #include "seven_segment.h"
 
 void seven_segment_Init(void)

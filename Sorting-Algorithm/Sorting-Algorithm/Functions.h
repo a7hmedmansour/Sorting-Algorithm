@@ -1,4 +1,3 @@
-
 #ifndef SORTING_ALGORITHM_H_
 #define SORTING_ALGORITHM_H_
 
